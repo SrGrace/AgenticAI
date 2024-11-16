@@ -9,6 +9,8 @@ Agentic AI Experimentations with watsonx.ai and BAM
     PROJECT_ID=<Watsonx_Project_id>
     IBM_CLOUD_URL='https://us-south.ml.cloud.ibm.com'  # Change the URL according to your region.
 
+    Or,
+    
     ## BAM credentials
     GENAI_KEY=<BAM_API_Key>
     GENAI_API=https://bam-api.res.ibm.com
