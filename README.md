@@ -1,19 +1,13 @@
 # AgenticAI
-Agentic AI Experimentations with watsonx.ai and BAM
+Agentic AI Experimentations
 
 
 - .env example - Make a .env file in the root folder with the following ecredentials:
     ```
     ## watsonx.ai credentials
-    API_KEY='IBM_cloud_API_Key'
-    PROJECT_ID=<Watsonx_Project_id>
-    IBM_CLOUD_URL='https://us-south.ml.cloud.ibm.com'  # Change the URL according to your region.
-
-    Or,
-    
-    ## BAM credentials
-    GENAI_KEY=<BAM_API_Key>
-    GENAI_API=https://bam-api.res.ibm.com
+    API_KEY='cloud_API_Key'
+    PROJECT_ID=<Wx Project_id>
+    CLOUD_URL=''  # Change the URL according to your region.
 
     ## other credentials
     LANGCHAIN_API_KEY=<langchain API key for langSmith tracing>
